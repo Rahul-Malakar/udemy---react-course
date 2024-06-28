@@ -16,7 +16,7 @@ function SearchBar({ onSubmit }) {
 
   return (
     <div className='SearchBar'>
-      <label >Enter search term</label>
+      <label >Search for pictures</label>
       <form onSubmit={handleFormSubmit}>
         <input type="text" value = {term}  onChange={handleChange}/>
       </form>
