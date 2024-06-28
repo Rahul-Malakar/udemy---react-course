@@ -1,0 +1,11 @@
+.imageList{
+    columns: 6 200px;
+    column-gap: 10px;
+    margin: 2% 5% 2% 5%;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
